@@ -13,6 +13,7 @@ of 73.28%.
 Official model checkpoint and training log can be found following:
 
 - [Google Drive](https://drive.google.com/file/d/1H4nW58EmGnDr3R7mQ6WM820bYLBpFagG/view?usp=sharing)
+- [USTC Cloud Disk](https://rec.ustc.edu.cn/share/3b429380-687a-11ec-a232-e55771970099)
 - [百度网盘 (提取码: h927)](https://pan.baidu.com/s/1yh-mcD4MAmDj-yltCMqbFw)
 
 ### Usage
