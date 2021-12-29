@@ -10,11 +10,18 @@ of 73.28%.
 |    [1]    |      73.28%       |
 | This work |    **73.70%**     |
 
+
 Official model checkpoint and training log can be found following:
 
 - [Google Drive](https://drive.google.com/file/d/1H4nW58EmGnDr3R7mQ6WM820bYLBpFagG/view?usp=sharing)
 - [USTC Cloud Disk](https://rec.ustc.edu.cn/share/3b429380-687a-11ec-a232-e55771970099)
 - [百度网盘 (提取码: h927)](https://pan.baidu.com/s/1yh-mcD4MAmDj-yltCMqbFw)
+
+
+Fer2013 Leaderboard: [Here](https://paperswithcode.com/sota/facial-expression-recognition-on-fer2013)
+
+<img src="https://raw.githubusercontent.com/LetheSec/oss/master/uPic/MhTbhC.png"  width="700" />
+
 
 ### Usage
 
@@ -42,3 +49,4 @@ python evaluate.py --checkpoint='xxx/best_checkpoint.tar'
 
 [1] Khaireddin, Yousif, and Zhuofa Chen. "Facial Emotion Recognition: State of the Art Performance on FER2013." arXiv
 preprint arXiv:2105.03588 (2021).
+
