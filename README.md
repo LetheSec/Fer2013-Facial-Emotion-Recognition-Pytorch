@@ -15,7 +15,7 @@ Official model checkpoint and training log can be found following:
 - [Google Drive](https://drive.google.com/file/d/1H4nW58EmGnDr3R7mQ6WM820bYLBpFagG/view?usp=sharing)
 - [百度网盘 (提取码: h927)](https://pan.baidu.com/s/1yh-mcD4MAmDj-yltCMqbFw)
 
-### Useage
+### Usage
 
 First, you should download the
 official [fer2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data?select=fer2013.tar.gz)
@@ -35,7 +35,7 @@ python evaluate.py --checkpoint='xxx/best_checkpoint.tar'
 
 ### Result
 
-![XpQTQ8](https://raw.githubusercontent.com/LetheSec/oss/master/uPic/XpQTQ8.png)
+<img src="https://raw.githubusercontent.com/LetheSec/oss/master/uPic/XpQTQ8.png"  style="zoom:40%;" />
 
 ### Reference
 
