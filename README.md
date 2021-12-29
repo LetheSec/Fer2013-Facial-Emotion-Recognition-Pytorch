@@ -35,7 +35,7 @@ python evaluate.py --checkpoint='xxx/best_checkpoint.tar'
 
 ### Result
 
-<img src="https://raw.githubusercontent.com/LetheSec/oss/master/uPic/XpQTQ8.png"  style="zoom:35%;" />
+<img src="https://raw.githubusercontent.com/LetheSec/oss/master/uPic/XpQTQ8.png"  width="500" />
 
 ### Reference
 
