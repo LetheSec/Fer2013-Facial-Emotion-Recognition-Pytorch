@@ -22,6 +22,8 @@ Fer2013 Leaderboard: [Here](https://paperswithcode.com/sota/facial-expression-re
 
 <img src="https://raw.githubusercontent.com/LetheSec/oss/master/uPic/MhTbhC.png"  width="700" />
 
+## 环境
+- GPU：2080Ti
 
 ### Usage
 
