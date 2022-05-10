@@ -25,6 +25,9 @@ Fer2013 Leaderboard: [Here](https://paperswithcode.com/sota/facial-expression-re
 ## 环境
 - GPU：2080Ti
 
+其他
+- CUDA：10.2
+- cuDnn:7605
 ### Usage
 
 First, you should download the
