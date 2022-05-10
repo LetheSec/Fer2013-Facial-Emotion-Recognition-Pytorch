@@ -104,15 +104,15 @@ def main():
     model.load_state_dict(checkpoint['model_state_dict'])
 
     train_loader, val_loader, test_loader = get_dataloaders(augment=False)
+    with torch.no_grad():
+        print("Train")
+        evaluate(model, train_loader, loss_fn, args.Ncrop, device)
 
-    print("Train")
-    evaluate(model, train_loader, loss_fn, args.Ncrop, device)
+        print("Val")
+        evaluate(model, val_loader, loss_fn, args.Ncrop, device)
 
-    print("Val")
-    evaluate(model, val_loader, loss_fn, args.Ncrop, device)
-
-    print("Test")
-    evaluate(model, test_loader, loss_fn, args.Ncrop, device)
+        print("Test")
+        evaluate(model, test_loader, loss_fn, args.Ncrop, device)
 
 
 if __name__ == "__main__":
