@@ -24,6 +24,7 @@ Fer2013 Leaderboard: [Here](https://paperswithcode.com/sota/facial-expression-re
 
 ## 环境
 - GPU：2080Ti
+- py:37
 
 其他
 - CUDA：10.2
