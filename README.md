@@ -22,7 +22,13 @@ Fer2013 Leaderboard: [Here](https://paperswithcode.com/sota/facial-expression-re
 
 <img src="https://raw.githubusercontent.com/LetheSec/oss/master/uPic/MhTbhC.png"  width="700" />
 
+## 环境
+- GPU：2080Ti
+- py:37
 
+其他
+- CUDA：10.2
+- cuDnn:7605
 ### Usage
 
 First, you should download the
