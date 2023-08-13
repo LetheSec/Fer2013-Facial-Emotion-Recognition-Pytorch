@@ -153,6 +153,8 @@ def train(model, train_loader, loss_fn, optimizer, epoch, device, scaler, writer
     for i, data in enumerate(train_loader):
         images, labels = data
         images, labels = images.to(device), labels.to(device)
+        
+        org_images, org_labels = images.clone(), labels.clone()
 
         with autocast():
             if args.Ncrop:
@@ -201,9 +203,16 @@ def train(model, train_loader, loss_fn, optimizer, epoch, device, scaler, writer
         scaler.update()
 
         train_loss += loss
-        _, preds = torch.max(outputs, 1)
-        correct += torch.sum(preds == labels.data).item()
+        
+        # Calculate training accuracy
+        if args.Ncrop:
+            bs, ncrops, c, h, w = org_images.shape
+            org_images = org_images.view(-1, c, h, w)
+            org_labels = torch.repeat_interleave(org_labels, repeats=ncrops, dim=0)
+        _, preds = torch.max(model(org_images), 1)
+        correct += torch.sum(preds == org_labels.data).item()
         count += labels.shape[0]
+
 
     return train_loss / count, correct / count
 
