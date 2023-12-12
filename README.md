@@ -3,7 +3,7 @@
 This work is the final project of the Computer Vision Course of USTC. However, I achieve the highest single-network
 classification accuracy on FER2013 based on ResNet18. To my best knowledge, this work **achieves state-of-the-art
 single-network accuracy of 73.70 % on FER2013 without using extra training data**, which exceeds the previous work [1]
-of 73.28%.
+of 73.28%. [(Chineses Post)](https://zhuanlan.zhihu.com/p/451347771)
 
 |  Method   | Private Test Data |
 | :-------: | :---------------: |
@@ -21,6 +21,7 @@ Official model checkpoint and training log can be found following:
 Fer2013 Leaderboard: [Here](https://paperswithcode.com/sota/facial-expression-recognition-on-fer2013)
 
 <img src="https://raw.githubusercontent.com/LetheSec/oss/master/uPic/MhTbhC.png"  width="700" />
+
 
 ## 环境
 - GPU：2080Ti
