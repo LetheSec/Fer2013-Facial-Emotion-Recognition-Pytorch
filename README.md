@@ -57,3 +57,15 @@ python evaluate.py --checkpoint='xxx/best_checkpoint.tar'
 [1] Khaireddin, Yousif, and Zhuofa Chen. "Facial Emotion Recognition: State of the Art Performance on FER2013." arXiv
 preprint arXiv:2105.03588 (2021).
 
+
+### Citation
+If you need citing this work, please refer to the following:
+
+```bibtex
+@misc{yuan2021fer,
+  title         = {Fer2013-Facial-Emotion-Recognition-Pytorch},
+  author        = {Yuan, Xiaojian},
+  year          = {2021},
+  url           = {https://github.com/LetheSec/Fer2013-Facial-Emotion-Recognition-Pytorch}
+}
+```
