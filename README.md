@@ -52,11 +52,6 @@ python evaluate.py --checkpoint='xxx/best_checkpoint.tar'
 
 <img src="https://raw.githubusercontent.com/LetheSec/oss/master/uPic/XpQTQ8.png"  width="500" />
 
-### Reference
-
-[1] Khaireddin, Yousif, and Zhuofa Chen. "Facial Emotion Recognition: State of the Art Performance on FER2013." arXiv
-preprint arXiv:2105.03588 (2021).
-
 
 ### Citation
 If you are considering citing this work, please refer to the following:
@@ -71,3 +66,8 @@ If you are considering citing this work, please refer to the following:
   howpublished = {\url{https://github.com/LetheSec/Fer2013-Facial-Emotion-Recognition-Pytorch}},
 }
 ```
+
+### Reference
+
+[1] Khaireddin, Yousif, and Zhuofa Chen. "Facial Emotion Recognition: State of the Art Performance on FER2013." arXiv
+preprint arXiv:2105.03588 (2021).
