@@ -59,13 +59,15 @@ preprint arXiv:2105.03588 (2021).
 
 
 ### Citation
-If you need citing this work, please refer to the following:
+If you are considering citing this work, please refer to the following:
 
 ```bibtex
 @misc{yuan2021fer,
-  title         = {Fer2013-Facial-Emotion-Recognition-Pytorch},
-  author        = {Yuan, Xiaojian},
-  year          = {2021},
-  url           = {https://github.com/LetheSec/Fer2013-Facial-Emotion-Recognition-Pytorch}
+  title        = {Fer2013-Facial-Emotion-Recognition-Pytorch},
+  author       = {Yuan, Xiaojian},
+  year         = {2021},
+  publisher    = {GitHub},
+  journal      = {GitHub repository},
+  howpublished = {\url{https://github.com/LetheSec/Fer2013-Facial-Emotion-Recognition-Pytorch}},
 }
 ```
